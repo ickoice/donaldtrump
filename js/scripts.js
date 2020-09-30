@@ -11,7 +11,7 @@
 			var preloader = $('.spinner-wrapper');
 			setTimeout(function() {
 				preloader.fadeOut(preloaderFadeOutTime);
-			}, 500);
+			}, 300);
 		}
 		hidePreloader();
 	});
