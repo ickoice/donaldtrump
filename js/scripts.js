@@ -1,8 +1,4 @@
-/* Template: Leno - Mobile App HTML Landing Page Template
-   Author: Inovatik
-   Created: Mar 2019
-   Description: Custom JS file
-*/
+
 
 
 (function($) {
@@ -10,7 +6,7 @@
 	
 	/* Preloader */
 	$(window).on('load', function() {
-		var preloaderFadeOutTime = 500;
+		var preloaderFadeOutTime = 300;
 		function hidePreloader() {
 			var preloader = $('.spinner-wrapper');
 			setTimeout(function() {
