@@ -4,17 +4,17 @@
 (function($) {
     "use strict"; 
 	
-	/* Preloader */
-	$(window).on('load', function() {
-		var preloaderFadeOutTime = 300;
-		function hidePreloader() {
-			var preloader = $('.spinner-wrapper');
-			setTimeout(function() {
-				preloader.fadeOut(preloaderFadeOutTime);
-			}, 300);
-		}
-		hidePreloader();
-	});
+	// /* Preloader */
+	// $(window).on('load', function() {
+	// 	var preloaderFadeOutTime = 300;
+	// 	function hidePreloader() {
+	// 		var preloader = $('.spinner-wrapper');
+	// 		setTimeout(function() {
+	// 			preloader.fadeOut(preloaderFadeOutTime);
+	// 		}, 300);
+	// 	}
+	// 	hidePreloader();
+	// });
 
 	
 	/* Navbar Scripts */
